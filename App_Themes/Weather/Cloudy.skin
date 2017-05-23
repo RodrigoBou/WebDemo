@@ -1,0 +1,16 @@
+<asp:TextBox  runat="server" 
+            BackColor="red" 
+            BorderColor="Yellow" 
+            BorderStyle="Solid" 
+            BorderWidth="12px" 
+            ForeColor="#FFFF99" 
+            Width="162px"></asp:TextBox>
+
+
+<asp:TextBox SkinID="CloudySkinDemo"  runat="server" 
+            BackColor="yellow" 
+            BorderColor="Yellow" 
+            BorderStyle="Solid" 
+            BorderWidth="18px" 
+            ForeColor="#FFFF99" 
+            Width="162px"></asp:TextBox>

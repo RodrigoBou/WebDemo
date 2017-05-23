@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <Users>
+    <User>
+      <UserName>mauri9</UserName>
+      <Password>mairi123</Password>
+      <Country>Nicaragua</Country>
+      <email>mauri@gmail.com</email>
+    </User>
+    <User>
+      <UserName>ingyohalmo</UserName>
+      <Password>yohalmo123</Password>
+      <Country>El Salvador</Country>
+      <email>ingyohalmo@hotmail.com</email>
+    </User>
+    <User>
+      <UserName>chele</UserName>
+      <Password>chelefea</Password>
+      <Country>Guatemala</Country>
+      <email>chele@hotmail.com</email>
+    </User>
+    <User> 
+      <UserName>helmer</UserName>
+      <Password>helmer123</Password>
+      <Country>Panama</Country>
+      <email>helmer8@gmail.com</email>
+    </User>
+  </Users>

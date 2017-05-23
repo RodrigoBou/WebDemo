@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPagesDemo_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            background-color: #00FFFF;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.gif" />
+                </td>
+                <td>
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/MCT.gif" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(232, 236, 239);" width="960">
+                        <tr>
+                            <td align="left" class="footer" colspan="5" height="41" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: rgb(25, 65, 91); font-weight: bold;">
+                                <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" class="footer" height="41" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: rgb(25, 65, 91); font-weight: bold;" width="93">Home</td>
+                            <td align="left" class="footer" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: rgb(25, 65, 91); font-weight: bold;" width="202">Training Courses</td>
+                            <td align="left" class="footer" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: rgb(25, 65, 91); font-weight: bold;" width="192">Support</td>
+                            <td align="left" class="footer" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: rgb(25, 65, 91); font-weight: bold;" width="210">Company</td>
+                            <td align="center" class="footer" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: rgb(25, 65, 91); font-weight: bold;" width="263">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td height="98" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">&nbsp;</td>
+                            <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top">
+                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="186">
+                                    <tr>
+                                        <td class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;" width="186"><a class="footer_txt" href="http://itacademy.in/sharepoint_new.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">SharePoint</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/msbi_new.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">MSBI</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/msdotnet.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">MS.NET</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/sqlserver_new.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">SQL SERVER</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td align="left" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top">
+                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="169">
+                                    <tr>
+                                        <td class="footer_txt" height="22" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;" width="169"><a class="footer_txt" href="http://itacademy.in/whyitacademy.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">Why ITAcademy ?</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="footer_txt" height="22" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/freevideos.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">Free Videos</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="footer_txt" height="22" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/Weekendworkshop.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">Weekend Workshops</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="footer_txt" height="22" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/trainingschedule.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">Training Schedule</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top">
+                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="169">
+                                    <tr>
+                                        <td align="left" class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;" width="169"><a class="footer_txt" href="http://itacademy.in/aboutus.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">About Us</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/contactus.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">Contact Us</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/careers.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">Careers</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="footer_txt" height="20" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;"><a class="footer_txt" href="http://itacademy.in/onlinetraining.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(27, 28, 29); text-decoration: underline;">Online Training</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="253">
+                                    <tr>
+                                        <td height="41" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);" width="253"><a href="http://itacademy.in/#"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="41" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);"><a href="http://itacademy.in/#"></a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" height="25" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(51, 51, 51);">
+                                <div align="center">
+                                    © Copyright 2010 - 2014 | ITAcademy.IN | All trademarks and logos are the sole property of their respective owners.</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>

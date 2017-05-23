@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="Controles Estandar"  description="">
+        <siteMapNode url="~/ControlesEstandar/CheckBoxEjemplo.aspx" title="Checkbox"  description="" />
+        <siteMapNode url="~/ControlesEstandar/TextBoxEjemplo.aspx" title="TextBox"  description="" />
+    </siteMapNode>
+</siteMap>
